@@ -1,0 +1,79 @@
+/** Universal **/
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+/** Header **/
+
+header {
+  background: url("../../resources/glasses.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+nav {
+  background-color: cadetblue;
+  padding: 1rem 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.small-menu {
+  display: none;
+}
+
+.main-banner {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .67em 0;
+}
+
+.flex {
+  display: flex;
+}
